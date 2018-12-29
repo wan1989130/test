@@ -14,6 +14,7 @@
 		1561D4F81F3D4068005D82C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1561D4F61F3D4068005D82C7 /* LaunchScreen.storyboard */; };
 		1561D5031F3D4069005D82C7 /* __Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561D5021F3D4069005D82C7 /* __Tests.swift */; };
 		1561D50E1F3D4069005D82C7 /* __UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561D50D1F3D4069005D82C7 /* __UITests.swift */; };
+		E35A0C5E21D7465E00F15FF1 /* a.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A0C5D21D7465E00F15FF1 /* a.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1561D5091F3D4069005D82C7 /* 递归UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "递归UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1561D50D1F3D4069005D82C7 /* __UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __UITests.swift; sourceTree = "<group>"; };
 		1561D50F1F3D4069005D82C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35A0C5D21D7465E00F15FF1 /* a.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = a.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1561D4F41F3D4068005D82C7 /* Assets.xcassets */,
 				1561D4F61F3D4068005D82C7 /* LaunchScreen.storyboard */,
 				1561D4F91F3D4068005D82C7 /* Info.plist */,
+				E35A0C5D21D7465E00F15FF1 /* a.swift */,
 			);
 			path = "递归";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35A0C5E21D7465E00F15FF1 /* a.swift in Sources */,
 				1561D4F01F3D4068005D82C7 /* ViewController.swift in Sources */,
 				1561D4EE1F3D4068005D82C7 /* AppDelegate.swift in Sources */,
 			);
@@ -505,6 +509,7 @@
 				1561D5141F3D4069005D82C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1561D5151F3D4069005D82C7 /* Build configuration list for PBXNativeTarget "递归Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				1561D5171F3D4069005D82C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1561D5181F3D4069005D82C7 /* Build configuration list for PBXNativeTarget "递归UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				1561D51A1F3D4069005D82C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
